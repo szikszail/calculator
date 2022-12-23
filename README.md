@@ -22,7 +22,7 @@ Create a [bc](https://www.gnu.org/software/bc/manual/html_mono/bc.html) clone co
    9. Literals cannot have white space in them, e.g. `3 456.5` is not valid
 6. It should support **operators**:
    1. Addition, e.g. `42 + 13` equals `55`
-   2. Substraction, e.g. `42 - 13` equals `29`
+   2. Subtraction, e.g. `42 - 13` equals `29`
    3. Multiplication, e.g. `42 * 2` equals `84`
    4. Division, e.g. `42 / 4` equals `10.5`
    5. Integer division, e.g. `42 // 4` equals `10`
@@ -31,6 +31,19 @@ Create a [bc](https://www.gnu.org/software/bc/manual/html_mono/bc.html) clone co
    8. Operations can be grouped, e.g. `(12 + 3) * 2` equals `30`
    9. There can be any white space between the operator and the operands until the expression is deterministic.
    10. Operators should have the following precedence (highest to lowest, Left-to-right on the same level):
-      1. Grouping
-      2. Power, Modulo, Integer division, Division, Multiplication
-      3. Addition, Subtractioní
+       1.  Grouping
+       2.  Power, Modulo, Integer division, Division, Multiplication
+       3.  Addition, Subtractioní
+
+## Technology
+
+Use any technology and programming language you wish.
+
+## Test
+
+Implement your tests, using the test data available in `test_data.json`, which contains an array of test data records:
+* `input`: one line of input to the tool
+* `output`: the output for the input line, unless there is an error
+* `error`: the error displayed on the screen if expected
+
+Note, that these are not all the possible test cases, feel free to add yours.
