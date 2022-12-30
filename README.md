@@ -26,18 +26,23 @@ Create a [bc](https://www.gnu.org/software/bc/manual/html_mono/bc.html) clone co
    3. Multiplication, e.g. `42 * 2` equals `84`
    4. Division, e.g. `42 / 4` equals `10.5`
    5. Integer division, e.g. `42 // 4` equals `10`
-   6. Modulo, e.g. `42 % 4` equals `2`
-   7. Power, e.g. `2 ^ 3` equals `8`
+   6. Remainder, e.g. `42 % 4` equals `2`
+   7. Exponential, e.g. `2 ^ 3` equals `8`
    8. Operations can be grouped, e.g. `(12 + 3) * 2` equals `30`
    9. There can be any white space between the operator and the operands until the expression is deterministic.
    10. Operators should have the following precedence (highest to lowest, Left-to-right on the same level):
        1.  Grouping
-       2.  Power, Modulo, Integer division, Division, Multiplication
-       3.  Addition, Subtractioní
+       2.  Exponential
+       3.  Multiplication, Division, Integer division, Remainder
+       4.  Addition, Subtraction
 
 ## Technology
 
 Use any technology and programming language you wish.
+
+### But!!!
+
+You cannot use any built-in solution or package to do the expression evaluation. The algorithm(s) for parsing and evaluating the expression should be implemented by you! 
 
 ## Test
 
