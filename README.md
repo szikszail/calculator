@@ -51,4 +51,6 @@ Implement your tests, using the test data available in `test_data.json`, which c
 * `output`: the output for the input line, unless there is an error
 * `error`: the error displayed on the screen if expected
 
+Note, that adding the test cases is in progress, the `test_data.json` is not complete yet!
+
 Note, that these are not all the possible test cases, feel free to add yours.
